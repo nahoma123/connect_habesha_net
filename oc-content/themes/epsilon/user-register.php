@@ -65,16 +65,16 @@
           </select>
         </div>*/ ?>
         
-        <div class="row em" style="display:none;">
+        <div class="row em" id="semail">
           <?php /*<label for="email"><?php _e('E-mail', 'epsilon'); ?> <span class="req">*</span></label>*/?>
-          <div class="input-box"><?php UserForm::email_text(); ?></div>
-          
+          <div class="input-box" style="margin-bottom:0px;"><?php UserForm::email_text(); ?></div>
+          <a href="javascript:void()" style="margin-bottom:15px;font-size:14px;float:right" id="choose_mobile">Register using phone</a>
         </div>
         
-        <div class="row mb">
+        <div class="row mb" id="sphone">
           <?php /*<label for="phone"><?php _e('Mobile Phone', 'epsilon'); ?></label>*/ ?>
-          <div class="input-box"><?php UserForm::mobile_text(osc_user()); ?></div>
-          <div style="text-align:left;font-style:italic;font-size:12px;margin-top:-13px;margin-bottom:15px;color:#0178d6;">Email registration will be available soon.</div>
+          <div class="input-box" style="margin-bottom:0px;"><?php UserForm::mobile_text(osc_user()); ?></div>
+          <a href="javascript:void()" style="margin-bottom:15px;font-size:14px;float:right" id="choose_email">Register using email</a>
         </div>
         
         <div class="row p1">
@@ -97,9 +97,9 @@
           
           <div class="td-wrap d1 input-box" style="width:100%;font-size:11px">
             <?php _e('By creating an account, you agree to our', 'epsilon'); ?> 
-            <a href="<?php echo osc_base_url(); ?>index.php?page=page&id=33" target="_blank" ><?php _e('Terms of Use', 'epsilon'); ?></a>,
+            <a href="<?php echo osc_base_url(); ?>index.php?page=page&id=23" target="_blank" ><?php _e('Terms of Service', 'epsilon'); ?></a>,
             <a href="<?php echo osc_base_url(); ?>index.php?page=page&id=32" target="_blank" ><?php _e('Privacy Policy', 'epsilon'); ?></a>, and 
-            <a href="<?php echo osc_base_url(); ?>" target="_blank" ><?php _e('Cookie Policy', 'epsilon'); ?></a>
+            <a href="<?php echo osc_base_url(); ?>index.php?page=page&id=33" target="_blank" ><?php _e('Cookie Use.', 'epsilon'); ?></a>
             <span class="req">*</span>
           </div>
         </div>
@@ -175,8 +175,8 @@
         $('input[name="s_name"]').attr('placeholder', '<?php echo osc_esc_js(__('Name', 'epsilon')); ?>').attr('required', true);
         $('input[name="s_email"]').attr('placeholder', '<?php echo osc_esc_js(__('Email', 'epsilon')); ?>').attr('required', true).prop('type', 'email');
         $('input[name="s_phone_mobile"]').attr('placeholder', '<?php echo osc_esc_js(__('phone number', 'epsilon')); ?>');
-        $('input[name="s_password"]').attr('placeholder', '<?php echo osc_esc_js(__('Password', 'epsilon')); ?>').attr('required', true);
-        $('input[name="s_password2"]').attr('placeholder', '<?php echo osc_esc_js(__('Repeat password', 'epsilon')); ?>').attr('required', true);
+        $('input[name="s_password"]').attr('placeholder', '<?php echo osc_esc_js(__('password', 'epsilon')); ?>').attr('required', true);
+        $('input[name="s_password2"]').attr('placeholder', '<?php echo osc_esc_js(__('retype password', 'epsilon')); ?>').attr('required', true);
         $('#sphone').hide();
         
         
@@ -186,7 +186,6 @@
         }, 2000);
         
     });
-    
   </script>
 </body>
 </html>
