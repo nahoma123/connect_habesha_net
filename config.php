@@ -1,46 +1,47 @@
 <?php
 // MySql database host
-if ($_SERVER['ENV'] !== 'development') {
-    define('DB_HOST', 'db');
+// if ($_SERVER['ENV'] !== 'development') {
+//     define('DB_HOST', 'db');
 
-    // MySql database username
-    define('DB_USER', 'u609444707_6txkvnew');
+//     // MySql database username
+//     define('DB_USER', 'u609444707_6txkvnew');
 
-    // MySql database password
-    define('DB_PASSWORD', '1A/T#pm|t|rf');
+//     // MySql database password
+//     define('DB_PASSWORD', '1A/T#pm|t|rf');
 
-    // MySql database name
-    define('DB_NAME', 'u609444707_NvDH4new');
+//     // MySql database name
+//     define('DB_NAME', 'u609444707_NvDH4new');
 
-    // MySql database table prefix
-    define('DB_TABLE_PREFIX', 'osxw_');
+//     // MySql database table prefix
+//     define('DB_TABLE_PREFIX', 'osxw_');
 
-    // Relative web url
-    define('REL_WEB_URL', '/');
+//     // Relative web url
+//     define('REL_WEB_URL', '/');
 
-    // Web address - modify here for SSL version of site
-    define('WEB_PATH', 'http://localhost:8080/');
-} else {
-    define('DB_HOST', 'localhost');
+//     // Web address - modify here for SSL version of site
+//     define('WEB_PATH', 'http://localhost:8080/');
+// } else {
+// }
 
-    // MySql database username
-    define('DB_USER', 'u609444707_6txkv');
+define('DB_HOST', 'localhost');
 
-    // MySql database password
-    define('DB_PASSWORD', '[t5>:XctG');
+// MySql database username
+define('DB_USER', 'u609444707_6txkv');
 
-    // MySql database name
-    define('DB_NAME', 'u609444707_NvDH4');
+// MySql database password
+define('DB_PASSWORD', '[t5>:XctG');
 
-    // MySql database table prefix
-    define('DB_TABLE_PREFIX', 'osxw_');
+// MySql database name
+define('DB_NAME', 'u609444707_NvDH4');
 
-    // Relative web url
-    define('REL_WEB_URL', '/');
+// MySql database table prefix
+define('DB_TABLE_PREFIX', 'osxw_');
 
-    // Web address - modify here for SSL version of site
-    define('WEB_PATH', 'https://connecthabesha.net/');
-}
+// Relative web url
+define('REL_WEB_URL', '/');
+
+// Web address - modify here for SSL version of site
+define('WEB_PATH', 'https://connecthabesha.net/');
 
 
 // *************************************** //
