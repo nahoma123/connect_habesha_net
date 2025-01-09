@@ -121,59 +121,61 @@
         </div>
 
         <style>
-          .city-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            max-width: 780px;
-            margin: 0 auto;
-          }
+  .city-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 780px;
+    margin: 0px;
+    padding-left: 0;
+    padding-right: 0;
+  }
 
-          #home-cat a {
-            width: 100%;
-            height: 184px;
-          }
-          
-          .city-box {
-            flex: 1 1 calc(20% - 10px);
-            box-sizing: border-box;
-            margin: 5px;
-            text-align: center;
-            max-width: calc(20% - 10px);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-          }
-          .city-box img {
-            width: 100%;
-            height: auto;
-          }
-          @media (max-width: 1200px) {
-            .city-box {
-              flex: 1 1 calc(25% - 10px);
-              max-width: calc(25% - 10px);
-            }
-          }
-          @media (max-width: 992px) {
-            .city-box {
-              flex: 1 1 calc(33.33% - 10px);
-              max-width: calc(33.33% - 10px);
-            }
-          }
-          @media (max-width: 768px) {
-            .city-box {
-              flex: 1 1 calc(50% - 10px);
-              max-width: calc(50% - 10px);
-            }
-          }
-          @media (max-width: 480px) {
-            .city-box {
-              flex: 1 1 100%;
-              max-width: 100%;
-            }
-          }
-        </style>
+  #home-cat a {
+    width: 100%;
+    height: 184px;
+  }
+  
+  .city-box {
+    flex: 1 1 calc(20% - 10px);
+    box-sizing: border-box;
+    margin: 5px 0; /* Adjusted margin to remove left and right margin */
+    text-align: center;
+    max-width: calc(20% - 10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .city-box img {
+    width: 100%;
+    height: auto;
+  }
+  @media (max-width: 1200px) {
+    .city-box {
+      flex: 1 1 calc(25% - 10px);
+      max-width: calc(25% - 10px);
+    }
+  }
+  @media (max-width: 992px) {
+    .city-box {
+      flex: 1 1 calc(33.33% - 10px);
+      max-width: calc(33.33% - 10px);
+    }
+  }
+  @media (max-width: 768px) {
+    .city-box {
+      flex: 1 1 calc(50% - 10px);
+      max-width: calc(50% - 10px);
+    }
+  }
+  @media (max-width: 480px) {
+    .city-box {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  }
+</style>
       </div>
     </div>
   </section>
