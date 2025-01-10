@@ -87,21 +87,21 @@
           
           <a href="<?php echo osc_search_url(array('page' => 'search','sCity' => '15235021','sLocation'=>'Addis+Ababa')); ?>" class="city-box">
             <div>
-             <img class="city_icons" src="https://connecthabesha.com/oc-content/themes/epsilon/images/addis-ababa.PNG" />
+             <img class="city_icons" src="https://connecthabesha.com/oc-content/themes/epsilon/images/ababa_addis.jpeg" />
             </div>
             <h3><span><?php _e('Addis Ababa', 'epsilon'); ?></span></h3>
           </a>
           
           <a href="<?php echo osc_search_url(array('page' => 'search','sCity' => '15235080','sLocation'=>'Hawassa+(Awassa)')); ?>" class="city-box">
             <div>
-             <img class="city_icons" src="https://connecthabesha.com/oc-content/themes/epsilon/images/awasa.jpeg" />
+             <img class="city_icons" src="https://connecthabesha.com/oc-content/themes/epsilon/images/hawassa.jpeg" />
             </div>
             <h3><span><?php _e('Hawassa', 'epsilon'); ?></span></h3>
           </a>
           
           <a href="<?php echo osc_search_url(array('page' => 'search','sCity' => '15235017','sLocation'=>'Adama')); ?>" class="city-box">
             <div>
-             <img class="city_icons" src="https://connecthabesha.com/oc-content/themes/epsilon/images/adama.PNG" />
+             <img class="city_icons" src="https://connecthabesha.com/oc-content/themes/epsilon/images/adama_2.jpeg" />
             </div>
             <h3><span><?php _e('Adama', 'epsilon'); ?></span></h3>
           </a>
@@ -114,7 +114,7 @@
           </a>
           <a href="<?php echo osc_search_url(array('page' => 'search','sCity' => '15235089','sLocation'=>'Arba+Minch')); ?>" class="city-box">
             <div>
-             <img class="city_icons" src="https://connecthabesha.com/oc-content/themes/epsilon/images/addis-ababa.PNG" />
+             <img class="city_icons" src="https://connecthabesha.com/oc-content/themes/epsilon/images/minch_arba.jpeg" />
             </div>
             <h3><span><?php _e('Arba Minch', 'epsilon'); ?></span></h3>
           </a>
