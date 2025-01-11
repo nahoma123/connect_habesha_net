@@ -23,25 +23,25 @@
 // } else {
 // }
 
-// define('DB_HOST', 'localhost');
+define('DB_HOST', 'localhost');
 
-// // MySql database username
-// define('DB_USER', 'u609444707_6txkv');
+// MySql database username
+define('DB_USER', 'u609444707_6txkv');
 
-// // MySql database password
-// define('DB_PASSWORD', '[t5>:XctG');
+// MySql database password
+define('DB_PASSWORD', '[t5>:XctG');
 
-// // MySql database name
-// define('DB_NAME', 'u609444707_NvDH4');
+// MySql database name
+define('DB_NAME', 'u609444707_NvDH4');
 
-// // MySql database table prefix
-// define('DB_TABLE_PREFIX', 'osxw_');
+// MySql database table prefix
+define('DB_TABLE_PREFIX', 'osxw_');
 
-// // Relative web url
-// define('REL_WEB_URL', '/');
+// Relative web url
+define('REL_WEB_URL', '/');
 
-// // Web address - modify here for SSL version of site
-// define('WEB_PATH', 'https://connecthabesha.net/');
+// Web address - modify here for SSL version of site
+define('WEB_PATH', 'https://connecthabesha.net/');
 
 
 // *************************************** //
