@@ -108,7 +108,7 @@
           
           <a href="<?php echo osc_search_url(array('page' => 'search','sCity' => '15235043','sLocation'=>'Dire+Dawa')); ?>" class="city-box">
             <div>
-             <img class="city_icons" src="https://connecthabesha.net/oc-content/themes/epsilon/images/addis-ababa.PNG" />
+             <img class="city_icons" src="https://connecthabesha.net/oc-content/themes/epsilon/images/dawa_dire.jpeg" />
             </div>
             <h3><span><?php _e('Dire Dawa', 'epsilon'); ?></span></h3>
           </a>
